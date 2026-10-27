@@ -18,6 +18,9 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Usar o npm 11 (igual ao do computador)
+        run: npm install -g npm@11
+
       - name: Instalar dependências
         run: npm ci
 
