@@ -18,10 +18,24 @@ const fraunces = Fraunces({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://calculadora-irt-angola.vercel.app";
+const TITLE = "Salário líquido em Angola | Calculadora de IRT";
+const DESCRIPTION =
+  "Calcula o teu salário líquido: IRT (Grupo A) e Segurança Social, com a tabela em vigor e o passo a passo do cálculo.";
+
 export const metadata: Metadata = {
-  title: "Salário líquido em Angola | Calculadora de IRT",
-  description:
-    "Calcula o teu salário líquido: IRT (Grupo A) e Segurança Social, com a tabela em vigor e o passo a passo do cálculo.",
+  metadataBase: new URL(SITE_URL),
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "pt_PT",
+    siteName: "Calculadora de IRT",
+    title: TITLE,
+    description: DESCRIPTION,
+    url: "/",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
