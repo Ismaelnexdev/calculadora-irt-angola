@@ -2,7 +2,7 @@
 
 Calcula o salário líquido a partir do salário base e dos subsídios, com **IRT (Grupo A)** e **Segurança Social**. Mostra o escalão aplicado e o passo a passo de cada conta.
 
-**Demo:** _(link a acrescentar depois de publicar)_
+**Demo:** _(https://calculadora-irt-angola.vercel.app/)_
 
 [![CI](https://github.com/Ismaelnexdev/calculadora-irt-angola/actions/workflows/ci.yml/badge.svg)](https://github.com/Ismaelnexdev/calculadora-irt-angola/actions/workflows/ci.yml)
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-green.svg)](LICENSE)
